@@ -25,13 +25,27 @@ model： GRUs + FC
 
 ![](../fig/SASRec.png)
 
-### Modeling Relational Data with Graph Convolutional Networks
-[https://arxiv.org/abs/1703.06103]
+### [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103)
 
-### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1812.07617)
+### REDIAL - [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1812.07617)
 
-### Towards Knowledge-Based Recommender Dialog System
-[https://arxiv.org/abs/1908.05391]
+* method
+在这个数据上对对话推荐的三个关键点分别进行实验：1）用autoencoder对用户当前语句编码；2）用RNN-based分类器做语义分类、评级；3）带switching mechanism的decoder将上面两个的输出作为输入，生成下句话
+
+![](../fig/redial.jpg)
+
+### KBRD（alibaba,Tsinghua） - [Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
+
+* motivation
+端对端的对话推荐系统，增强recommender和ds之间的交互。
+
+* method
+
+![](../fig/kbrd.jpg)
+
+
+
+
 
 ### Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion
 [https://arxiv.org/abs/2007.04032]
