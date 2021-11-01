@@ -37,7 +37,7 @@ model： GRUs + FC
 ### KBRD（alibaba,Tsinghua） - [Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
 
 * motivation
-端对端的对话推荐系统，增强recommender和ds之间的交互。
+相比之前端对端的对话推荐系统（redial），增强recommender和ds之间的交互。两者之间可以相互促进。
 
 * method
 
