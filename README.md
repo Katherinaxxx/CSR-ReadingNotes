@@ -28,6 +28,17 @@ model： GRUs + FC
 ---
 ### R-GCN - [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103)
 
+* motivation
+
+* method
+1. rgcn
+与gcn的区别是，1）引入边的方向和转向。2）为了确保层L + 1层的节点的表示也可以通过第L层的相应表示来通知，我们将特殊关系类型的单个自连接添加到数据中的每个节点 
+![rgcn](/fig/rgcn.png)
+
+2. 参数量惩罚项：basis-decomposition 和 block-diagonal-decomposition
+3. 两个任务link prediction和
+
+
 ### REDIAL - [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1812.07617)
 
 * method
